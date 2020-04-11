@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 10000vw;
+    height: 10000vh;
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.square {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    background-color: #000;
+    border-radius: 10px;
+}
