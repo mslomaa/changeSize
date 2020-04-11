@@ -55,6 +55,7 @@ window.addEventListener('scroll', function() {
 
     if(lineSize >= window.innerHeight / 2) {
         grow = false;
+        lineModify.style.backgroundColor = 'green';
     } else if (lineSize == 10) {
         grow = true
         lineModify.style.backgroundColor = 'red';
