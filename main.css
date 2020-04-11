@@ -26,3 +26,11 @@ body {
     background-color: #000;
     border-radius: 10px;
 }
+
+.line {
+    top: 0;
+    position: fixed;
+    height: 10px;
+    width: 100vw;
+    background-color: green;
+}
