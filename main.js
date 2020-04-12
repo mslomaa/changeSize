@@ -48,9 +48,11 @@ window.addEventListener('scroll', function() {
     if(grow == true) {
         lineSize += 5;
         lineModify.style.height = lineSize + 'px';
+        lineModify.style.backgroundColor = 'red';
     } else {
         lineSize -=5;
-        lineModify.style.height = lineSize + 'px';   
+        lineModify.style.height = lineSize + 'px';
+        lineModify.style.backgroundColor = 'green';
     }
 
     if(lineSize >= window.innerHeight / 2) {
@@ -58,6 +60,5 @@ window.addEventListener('scroll', function() {
         lineModify.style.backgroundColor = 'green';
     } else if (lineSize == 10) {
         grow = true
-        lineModify.style.backgroundColor = 'red';
     }
 })
